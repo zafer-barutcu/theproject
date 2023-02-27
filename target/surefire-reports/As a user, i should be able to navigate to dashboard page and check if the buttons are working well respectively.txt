@@ -1,0 +1,85 @@
+-------------------------------------------------------------------------------
+Test set: As a user, i should be able to navigate to dashboard page and check if the buttons are working well respectively
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.421 s <<< FAILURE! - in As a user, i should be able to navigate to dashboard page and check if the buttons are working well respectively
+As a user, i should be able to navigate to dashboard page and check if the buttons are working well respectively.After navigation to website, checking whether the buttons are working respectively #1  Time elapsed: 0.389 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'the user navigates to elyt website' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("the user navigates to elyt website")
+public void the_user_navigates_to_elyt_website() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user clicks on cookies popup")
+public void user_clicks_on_cookies_popup() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user clicks {string}")
+public void user_clicks(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user verifies that landed on {string} page")
+public void user_verifies_that_landed_on_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+As a user, i should be able to navigate to dashboard page and check if the buttons are working well respectively.After navigation to website, checking whether the buttons are working respectively #2  Time elapsed: 0.019 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'the user navigates to elyt website' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("the user navigates to elyt website")
+public void the_user_navigates_to_elyt_website() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user clicks on cookies popup")
+public void user_clicks_on_cookies_popup() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user clicks {string}")
+public void user_clicks(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user verifies that landed on {string} page")
+public void user_verifies_that_landed_on_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+As a user, i should be able to navigate to dashboard page and check if the buttons are working well respectively.After navigation to website, checking whether the buttons are working respectively #3  Time elapsed: 0.012 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'the user navigates to elyt website' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("the user navigates to elyt website")
+public void the_user_navigates_to_elyt_website() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user clicks on cookies popup")
+public void user_clicks_on_cookies_popup() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user clicks {string}")
+public void user_clicks(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user verifies that landed on {string} page")
+public void user_verifies_that_landed_on_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

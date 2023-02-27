@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="As a user, i should be able to navigate to dashboard page and check if the buttons are working well respectively" time="0.421" tests="3" errors="3" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="/Users/zaferbarutcu/.cache/selenium/chromedriver/mac64/108.0.5359.71/chromedriver"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/zaferbarutcu/Desktop/Elyt/target/test-classes:/Users/zaferbarutcu/Desktop/Elyt/target/classes:/Users/zaferbarutcu/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/zaferbarutcu/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/zaferbarutcu/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/zaferbarutcu/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/zaferbarutcu/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/zaferbarutcu/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/zaferbarutcu/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/zaferbarutcu/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/zaferbarutcu/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/zaferbarutcu/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/zaferbarutcu/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/zaferbarutcu/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/zaferbarutcu/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/zaferbarutcu/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/zaferbarutcu/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/zaferbarutcu/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/zaferbarutcu/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/zaferbarutcu/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/zaferbarutcu/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/zaferbarutcu/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/zaferbarutcu/.m2/repository/io/github/bonigarcia/webdrivermanager/5.1.0/webdrivermanager-5.1.0.jar:/Users/zaferbarutcu/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/zaferbarutcu/.m2/repository/com/google/code/gson/gson/2.9.0/gson-2.9.0.jar:/Users/zaferbarutcu/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar:/Users/zaferbarutcu/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar:/Users/zaferbarutcu/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar:/Users/zaferbarutcu/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/zaferbarutcu/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/zaferbarutcu/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/zaferbarutcu/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/zaferbarutcu/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar:/Users/zaferbarutcu/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar:/Users/zaferbarutcu/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/zaferbarutcu/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/zaferbarutcu/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/zaferbarutcu/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/zaferbarutcu/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/zaferbarutcu/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/zaferbarutcu/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/zaferbarutcu/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/zaferbarutcu/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/zaferbarutcu/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/zaferbarutcu/.m2/repository/io/cucumber/cucumber-java/7.2.3/cucumber-java-7.2.3.jar:/Users/zaferbarutcu/.m2/repository/io/cucumber/cucumber-core/7.2.3/cucumber-core-7.2.3.jar:/Users/zaferbarutcu/.m2/repository/io/cucumber/cucumber-gherkin/7.2.3/cucumber-gherkin-7.2.3.jar:/Users/zaferbarutcu/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.2.3/cucumber-gherkin-messages-7.2.3.jar:/Users/zaferbarutcu/.m2/repository/io/cucumber/messages/17.1.1/messages-17.1.1.jar:/Users/zaferbarutcu/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/zaferbarutcu/.m2/repository/io/cucumber/cucumber-expressions/15.0.1/cucumber-expressions-15.0.1.jar:/Users/zaferbarutcu/.m2/repository/io/cucumber/datatable/7.2.3/datatable-7.2.3.jar:/Users/zaferbarutcu/.m2/repository/io/cucumber/cucumber-plugin/7.2.3/cucumber-plugin-7.2.3.jar:/Users/zaferbarutcu/.m2/repository/io/cucumber/docstring/7.2.3/docstring-7.2.3.jar:/Users/zaferbarutcu/.m2/repository/io/cucumber/html-formatter/17.0.0/html-formatter-17.0.0.jar:/Users/zaferbarutcu/.m2/repository/io/cucumber/ci-environment/8.1.0/ci-environment-8.1.0.jar:/Users/zaferbarutcu/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/zaferbarutcu/.m2/repository/io/cucumber/cucumber-junit/7.2.3/cucumber-junit-7.2.3.jar:/Users/zaferbarutcu/.m2/repository/me/jvt/cucumber/reporting-plugin/7.2.0/reporting-plugin-7.2.0.jar:/Users/zaferbarutcu/.m2/repository/io/cucumber/gherkin/22.0.0/gherkin-22.0.0.jar:/Users/zaferbarutcu/.m2/repository/net/masterthought/cucumber-reporting/5.6.1/cucumber-reporting-5.6.1.jar:/Users/zaferbarutcu/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.1/jackson-databind-2.12.1.jar:/Users/zaferbarutcu/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.1/jackson-annotations-2.12.1.jar:/Users/zaferbarutcu/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.1/jackson-core-2.12.1.jar:/Users/zaferbarutcu/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.1/jackson-datatype-jsr310-2.12.1.jar:/Users/zaferbarutcu/.m2/repository/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar:/Users/zaferbarutcu/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/zaferbarutcu/.m2/repository/joda-time/joda-time/2.10.10/joda-time-2.10.10.jar:/Users/zaferbarutcu/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/zaferbarutcu/.m2/repository/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar:/Users/zaferbarutcu/.m2/repository/org/jsoup/jsoup/1.14.2/jsoup-1.14.2.jar:/Users/zaferbarutcu/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20211018.2/owasp-java-html-sanitizer-20211018.2.jar:/Users/zaferbarutcu/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/zaferbarutcu/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/zaferbarutcu/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/zaferbarutcu/.m2/repository/org/slf4j/slf4j-simple/1.7.32/slf4j-simple-1.7.32.jar:/Users/zaferbarutcu/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/zaferbarutcu/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/zaferbarutcu/.m2/repository/org/postgresql/postgresql/42.5.1/postgresql-42.5.1.jar:/Users/zaferbarutcu/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Europe/Istanbul"/>
+    <property name="user.country.format" value="TR"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Users/zaferbarutcu/Library/Java/JavaVirtualMachines/corretto-1.8.0_322/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/zaferbarutcu/Desktop/Elyt/target/surefire/surefirebooter8066371528696079646.jar /Users/zaferbarutcu/Desktop/Elyt/target/surefire 2023-01-04T16-16-48_687-jvmRun1 surefire258016077899649036tmp surefire_06918972721171977297tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/zaferbarutcu/Desktop/Elyt/target/test-classes:/Users/zaferbarutcu/Desktop/Elyt/target/classes:/Users/zaferbarutcu/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/zaferbarutcu/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/zaferbarutcu/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/zaferbarutcu/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/zaferbarutcu/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/zaferbarutcu/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/zaferbarutcu/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/zaferbarutcu/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/zaferbarutcu/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/zaferbarutcu/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/zaferbarutcu/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/zaferbarutcu/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/zaferbarutcu/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/zaferbarutcu/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/zaferbarutcu/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/zaferbarutcu/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/zaferbarutcu/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/zaferbarutcu/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/zaferbarutcu/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/zaferbarutcu/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/zaferbarutcu/.m2/repository/io/github/bonigarcia/webdrivermanager/5.1.0/webdrivermanager-5.1.0.jar:/Users/zaferbarutcu/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/zaferbarutcu/.m2/repository/com/google/code/gson/gson/2.9.0/gson-2.9.0.jar:/Users/zaferbarutcu/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar:/Users/zaferbarutcu/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar:/Users/zaferbarutcu/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar:/Users/zaferbarutcu/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/zaferbarutcu/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/zaferbarutcu/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/zaferbarutcu/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/zaferbarutcu/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar:/Users/zaferbarutcu/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar:/Users/zaferbarutcu/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/zaferbarutcu/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/zaferbarutcu/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/zaferbarutcu/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/zaferbarutcu/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/zaferbarutcu/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/zaferbarutcu/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/zaferbarutcu/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/zaferbarutcu/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/zaferbarutcu/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/zaferbarutcu/.m2/repository/io/cucumber/cucumber-java/7.2.3/cucumber-java-7.2.3.jar:/Users/zaferbarutcu/.m2/repository/io/cucumber/cucumber-core/7.2.3/cucumber-core-7.2.3.jar:/Users/zaferbarutcu/.m2/repository/io/cucumber/cucumber-gherkin/7.2.3/cucumber-gherkin-7.2.3.jar:/Users/zaferbarutcu/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.2.3/cucumber-gherkin-messages-7.2.3.jar:/Users/zaferbarutcu/.m2/repository/io/cucumber/messages/17.1.1/messages-17.1.1.jar:/Users/zaferbarutcu/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/zaferbarutcu/.m2/repository/io/cucumber/cucumber-expressions/15.0.1/cucumber-expressions-15.0.1.jar:/Users/zaferbarutcu/.m2/repository/io/cucumber/datatable/7.2.3/datatable-7.2.3.jar:/Users/zaferbarutcu/.m2/repository/io/cucumber/cucumber-plugin/7.2.3/cucumber-plugin-7.2.3.jar:/Users/zaferbarutcu/.m2/repository/io/cucumber/docstring/7.2.3/docstring-7.2.3.jar:/Users/zaferbarutcu/.m2/repository/io/cucumber/html-formatter/17.0.0/html-formatter-17.0.0.jar:/Users/zaferbarutcu/.m2/repository/io/cucumber/ci-environment/8.1.0/ci-environment-8.1.0.jar:/Users/zaferbarutcu/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/zaferbarutcu/.m2/repository/io/cucumber/cucumber-junit/7.2.3/cucumber-junit-7.2.3.jar:/Users/zaferbarutcu/.m2/repository/me/jvt/cucumber/reporting-plugin/7.2.0/reporting-plugin-7.2.0.jar:/Users/zaferbarutcu/.m2/repository/io/cucumber/gherkin/22.0.0/gherkin-22.0.0.jar:/Users/zaferbarutcu/.m2/repository/net/masterthought/cucumber-reporting/5.6.1/cucumber-reporting-5.6.1.jar:/Users/zaferbarutcu/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.1/jackson-databind-2.12.1.jar:/Users/zaferbarutcu/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.1/jackson-annotations-2.12.1.jar:/Users/zaferbarutcu/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.1/jackson-core-2.12.1.jar:/Users/zaferbarutcu/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.1/jackson-datatype-jsr310-2.12.1.jar:/Users/zaferbarutcu/.m2/repository/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar:/Users/zaferbarutcu/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/zaferbarutcu/.m2/repository/joda-time/joda-time/2.10.10/joda-time-2.10.10.jar:/Users/zaferbarutcu/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/zaferbarutcu/.m2/repository/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar:/Users/zaferbarutcu/.m2/repository/org/jsoup/jsoup/1.14.2/jsoup-1.14.2.jar:/Users/zaferbarutcu/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20211018.2/owasp-java-html-sanitizer-20211018.2.jar:/Users/zaferbarutcu/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/zaferbarutcu/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/zaferbarutcu/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/zaferbarutcu/.m2/repository/org/slf4j/slf4j-simple/1.7.32/slf4j-simple-1.7.32.jar:/Users/zaferbarutcu/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/zaferbarutcu/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/zaferbarutcu/.m2/repository/org/postgresql/postgresql/42.5.1/postgresql-42.5.1.jar:/Users/zaferbarutcu/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/zaferbarutcu"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Users/zaferbarutcu/Library/Java/JavaVirtualMachines/corretto-1.8.0_322/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/zaferbarutcu/Desktop/Elyt"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/zaferbarutcu/Desktop/Elyt/target/surefire/surefirebooter8066371528696079646.jar"/>
+    <property name="sun.boot.class.path" value="/Users/zaferbarutcu/Library/Java/JavaVirtualMachines/corretto-1.8.0_322/Contents/Home/jre/lib/resources.jar:/Users/zaferbarutcu/Library/Java/JavaVirtualMachines/corretto-1.8.0_322/Contents/Home/jre/lib/rt.jar:/Users/zaferbarutcu/Library/Java/JavaVirtualMachines/corretto-1.8.0_322/Contents/Home/jre/lib/sunrsasign.jar:/Users/zaferbarutcu/Library/Java/JavaVirtualMachines/corretto-1.8.0_322/Contents/Home/jre/lib/jsse.jar:/Users/zaferbarutcu/Library/Java/JavaVirtualMachines/corretto-1.8.0_322/Contents/Home/jre/lib/jce.jar:/Users/zaferbarutcu/Library/Java/JavaVirtualMachines/corretto-1.8.0_322/Contents/Home/jre/lib/charsets.jar:/Users/zaferbarutcu/Library/Java/JavaVirtualMachines/corretto-1.8.0_322/Contents/Home/jre/lib/jfr.jar:/Users/zaferbarutcu/Library/Java/JavaVirtualMachines/corretto-1.8.0_322/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_322-b06"/>
+    <property name="user.name" value="zaferbarutcu"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.6.2"/>
+    <property name="java.endorsed.dirs" value="/Users/zaferbarutcu/Library/Java/JavaVirtualMachines/corretto-1.8.0_322/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/zaferbarutcu/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-8/issues/"/>
+    <property name="java.io.tmpdir" value="/var/folders/zs/t71z7bs929n8ck9mcyz6_zkh0000gn/T/"/>
+    <property name="java.version" value="1.8.0_322"/>
+    <property name="user.dir" value="/Users/zaferbarutcu/Desktop/Elyt"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/zaferbarutcu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="25.322-b06"/>
+    <property name="java.ext.dirs" value="/Users/zaferbarutcu/Library/Java/Extensions:/Users/zaferbarutcu/Library/Java/JavaVirtualMachines/corretto-1.8.0_322/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="After navigation to website, checking whether the buttons are working respectively #1" classname="As a user, i should be able to navigate to dashboard page and check if the buttons are working well respectively" time="0.389">
+    <error message="The step &apos;the user navigates to elyt website&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;the user navigates to elyt website&quot;)&#10;public void the_user_navigates_to_elyt_website() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;user clicks on cookies popup&quot;)&#10;public void user_clicks_on_cookies_popup() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;user clicks {string}&quot;)&#10;public void user_clicks(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;user verifies that landed on {string} page&quot;)&#10;public void user_verifies_that_landed_on_page(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'the user navigates to elyt website' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("the user navigates to elyt website")
+public void the_user_navigates_to_elyt_website() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user clicks on cookies popup")
+public void user_clicks_on_cookies_popup() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user clicks {string}")
+public void user_clicks(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user verifies that landed on {string} page")
+public void user_verifies_that_landed_on_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[Jan 04, 2023 4:17:24 PM net.masterthought.cucumber.ReportParser parseJsonFiles
+INFO: File '/var/folders/zs/t71z7bs929n8ck9mcyz6_zkh0000gn/T/cucumber5823274711878140289.json' contains 1 features
+
+This is the end of test execution
+]]></system-out>
+  </testcase>
+  <testcase name="After navigation to website, checking whether the buttons are working respectively #2" classname="As a user, i should be able to navigate to dashboard page and check if the buttons are working well respectively" time="0.019">
+    <error message="The step &apos;the user navigates to elyt website&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;the user navigates to elyt website&quot;)&#10;public void the_user_navigates_to_elyt_website() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;user clicks on cookies popup&quot;)&#10;public void user_clicks_on_cookies_popup() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;user clicks {string}&quot;)&#10;public void user_clicks(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;user verifies that landed on {string} page&quot;)&#10;public void user_verifies_that_landed_on_page(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'the user navigates to elyt website' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("the user navigates to elyt website")
+public void the_user_navigates_to_elyt_website() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user clicks on cookies popup")
+public void user_clicks_on_cookies_popup() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user clicks {string}")
+public void user_clicks(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user verifies that landed on {string} page")
+public void user_verifies_that_landed_on_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[This is the end of test execution
+]]></system-out>
+  </testcase>
+  <testcase name="After navigation to website, checking whether the buttons are working respectively #3" classname="As a user, i should be able to navigate to dashboard page and check if the buttons are working well respectively" time="0.012">
+    <error message="The step &apos;the user navigates to elyt website&apos; and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;the user navigates to elyt website&quot;)&#10;public void the_user_navigates_to_elyt_website() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;user clicks on cookies popup&quot;)&#10;public void user_clicks_on_cookies_popup() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;user clicks {string}&quot;)&#10;public void user_clicks(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;user verifies that landed on {string} page&quot;)&#10;public void user_verifies_that_landed_on_page(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'the user navigates to elyt website' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("the user navigates to elyt website")
+public void the_user_navigates_to_elyt_website() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user clicks on cookies popup")
+public void user_clicks_on_cookies_popup() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user clicks {string}")
+public void user_clicks(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("user verifies that landed on {string} page")
+public void user_verifies_that_landed_on_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[This is the end of test execution
+]]></system-out>
+  </testcase>
+</testsuite>
