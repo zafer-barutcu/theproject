@@ -3,7 +3,7 @@ Feature: As a user, i should be able to login with different ways
   Background:
     Given the user navigates to elyt website
     Then user clicks on cookies popup
-  @smoke @regression
+  @regression
   Scenario: login with metamask
     And user clicks on connect button
     Then clicks on show more button
