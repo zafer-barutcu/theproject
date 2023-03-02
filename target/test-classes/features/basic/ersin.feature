@@ -1,7 +1,7 @@
 Feature: dfsdf
   Background:
     Given the user in on the page
-    @ersin
+  @smoke @ersin @regression
     Scenario:
       Then user accept cookies
       Then user clicks login button
