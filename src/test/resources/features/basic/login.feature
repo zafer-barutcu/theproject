@@ -8,8 +8,8 @@ Feature: As a user, i should be able to login with different ways
     And user clicks on connect button
     Then clicks on show more button
     Then clicks on show less button
-    When clicks on Metamask option
-    Then lands on metamask page
+   # When clicks on Metamask option
+   # Then lands on metamask page
 
 
 

@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features/basic",
         glue = "elyt/step_definitions",
         dryRun = false,
-        tags = " @ersin"
+        tags = " @smoke"
 )
 public class CukesRunner {
 
