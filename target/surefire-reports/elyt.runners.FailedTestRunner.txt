@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: elyt.runners.FailedTestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in elyt.runners.FailedTestRunner
+elyt.runners.FailedTestRunner.initializationError  Time elapsed: 0.002 s  <<< ERROR!
+io.cucumber.core.gherkin.FeatureParserException: 
+Failed to parse resource at: file:///Users/zaferbarutcu/IdeaProjects/theproject/src/test/resources/features/basic/null.feature
+(1:1): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got 'git'
+

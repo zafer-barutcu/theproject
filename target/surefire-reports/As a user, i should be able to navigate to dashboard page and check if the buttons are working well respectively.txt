@@ -1,85 +1,33 @@
 -------------------------------------------------------------------------------
 Test set: As a user, i should be able to navigate to dashboard page and check if the buttons are working well respectively
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.421 s <<< FAILURE! - in As a user, i should be able to navigate to dashboard page and check if the buttons are working well respectively
-As a user, i should be able to navigate to dashboard page and check if the buttons are working well respectively.After navigation to website, checking whether the buttons are working respectively #1  Time elapsed: 0.389 s  <<< ERROR!
-io.cucumber.junit.UndefinedStepException: 
-The step 'the user navigates to elyt website' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
+Tests run: 3, Failures: 1, Errors: 2, Skipped: 0, Time elapsed: 59.589 s <<< FAILURE! - in As a user, i should be able to navigate to dashboard page and check if the buttons are working well respectively
+As a user, i should be able to navigate to dashboard page and check if the buttons are working well respectively.After navigation to website, checking whether the buttons are working respectively #1  Time elapsed: 18.767 s  <<< FAILURE!
+java.lang.AssertionError
 
-@Given("the user navigates to elyt website")
-public void the_user_navigates_to_elyt_website() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("user clicks on cookies popup")
-public void user_clicks_on_cookies_popup() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user clicks {string}")
-public void user_clicks(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("user verifies that landed on {string} page")
-public void user_verifies_that_landed_on_page(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+As a user, i should be able to navigate to dashboard page and check if the buttons are working well respectively.After navigation to website, checking whether the buttons are working respectively #2  Time elapsed: 21.668 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: .btn.btn-cookie (tried for 15 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".btn.btn-cookie"}
+  (Session info: chrome=110.0.5481.177)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Zafer-MacBook-Pro.local', ip: 'fe80:0:0:0:6:97a4:766a:4bdd%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.3', java.version: '1.8.0_322'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /var/folders/zs/t71z7bs929n...}, goog:chromeOptions: {debuggerAddress: localhost:50084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d0b50029d3ab36e35c0cfe8a08d363ff
+*** Element info: {Using=css selector, value=.btn.btn-cookie}
 
-
-As a user, i should be able to navigate to dashboard page and check if the buttons are working well respectively.After navigation to website, checking whether the buttons are working respectively #2  Time elapsed: 0.019 s  <<< ERROR!
-io.cucumber.junit.UndefinedStepException: 
-The step 'the user navigates to elyt website' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("the user navigates to elyt website")
-public void the_user_navigates_to_elyt_website() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("user clicks on cookies popup")
-public void user_clicks_on_cookies_popup() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user clicks {string}")
-public void user_clicks(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("user verifies that landed on {string} page")
-public void user_verifies_that_landed_on_page(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-
-As a user, i should be able to navigate to dashboard page and check if the buttons are working well respectively.After navigation to website, checking whether the buttons are working respectively #3  Time elapsed: 0.012 s  <<< ERROR!
-io.cucumber.junit.UndefinedStepException: 
-The step 'the user navigates to elyt website' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("the user navigates to elyt website")
-public void the_user_navigates_to_elyt_website() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("user clicks on cookies popup")
-public void user_clicks_on_cookies_popup() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("user clicks {string}")
-public void user_clicks(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("user verifies that landed on {string} page")
-public void user_verifies_that_landed_on_page(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
+As a user, i should be able to navigate to dashboard page and check if the buttons are working well respectively.After navigation to website, checking whether the buttons are working respectively #3  Time elapsed: 19.148 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: .btn.btn-cookie (tried for 15 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".btn.btn-cookie"}
+  (Session info: chrome=110.0.5481.177)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Zafer-MacBook-Pro.local', ip: 'fe80:0:0:0:6:97a4:766a:4bdd%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.3', java.version: '1.8.0_322'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /var/folders/zs/t71z7bs929n...}, goog:chromeOptions: {debuggerAddress: localhost:50084}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d0b50029d3ab36e35c0cfe8a08d363ff
+*** Element info: {Using=css selector, value=.btn.btn-cookie}
 
